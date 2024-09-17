@@ -34,9 +34,12 @@ style.css
 /js
 script.js
 /backend
+createBD.php
+createTB.php
+insert-tb.php
+alter_table.php
 search.php
-/db
-database.sql
+
 css
 
 ## Installation
