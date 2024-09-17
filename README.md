@@ -40,10 +40,40 @@ insert-tb.php
 alter_table.php
 search.php
 
-css
+## How to Run the Project Locally
 
-## Installation
-1. Clone the repository.
-2. Set up a local server (e.g., XAMPP) and import the provided SQL file to create the database.
-3. Adjust the database connection settings in the `search.php` file.
-4. Launch the site locally by navigating to the index file in your browser.
+To set up and run the project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/project-name.git
+    ```
+2. Set up a local server:
+
+- Install and run a local server environment (e.g., XAMPP, WAMP, or MAMP).
+- Start Apache and MySQL services.
+
+3. Create the database:
+
+The database will be created via a PHP script. Open your browser and navigate to the following URL:
+  ```bash 
+     http://localhost/project-name/setup.php
+  ```
+This script will automatically set up the necessary database structure.
+
+4. Adjust the database connection settings:
+
+Open the config.php or search.php file and adjust the database connection details:
+ ```bash
+php
+$servername = "localhost";
+$username = "root";
+$password = "nyshtairyna2004";
+$dbname = "tax_info";
+ ```
+
+5. Launch the site locally:
+ After setting up the database, open the index.php file in your browser:
+    ```bash
+    http://localhost/project-name/index.php
+     ```
