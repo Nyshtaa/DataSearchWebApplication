@@ -28,17 +28,17 @@ This project is a **Data Search Web Application** designed to allow users to sea
 4. The search results are dynamically rendered on the page using JavaScript without reloading.
 
 ## Project Structure
-index.php
-/css
-style.css
-/js
-script.js
-/backend
-createBD.php
-createTB.php
-insert-tb.php
-alter_table.php
-search.php
+index.php  
+/css  
+style.css  
+/js  
+script.js  
+/backend  
+createBD.php  
+createTB.php  
+insert-tb.php  
+alter_table.php  
+search.php  
 
 ## How to Run the Project Locally
 
